@@ -1,0 +1,150 @@
+*{
+    padding:0%;
+    margin:0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body,html{
+    width:100%;
+    height:100%;
+}
+.main{
+    background-color: yellow;
+    width:100%;
+    height:100%;
+    display:flex;
+}
+.fill{
+    width:40%;
+    background-color:red;
+    height:100%;
+    /* padding:5%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://media.istockphoto.com/id/1422146151/vector/abstract-creative-background.jpg?s=612x612&w=0&k=20&c=dLFwjCx48M6FdMycL2vlyBVeXKnVcqk4AKiU1SHxWdQ=');
+    background-repeat: no-repeat;
+    background-size:cover
+}
+.dec{
+    width:60%;
+    background-color:blue;
+    height:100%;
+    background-image: url('https://img.freepik.com/free-vector/graphic-design-workspace-background-with-desk-tools_23-2147792093.jpg?t=st=1734429588~exp=1734433188~hmac=ceac0fea877fb1cecbfe8e12d2a7972cb0427df125168fc46052730ef863ebcd&w=740');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.form{
+    height:30%;
+    width:80%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:6%;
+    padding-bottom:20%;
+    border-radius:3%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+h2{
+    padding-top:5%;
+}
+.bln{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    height:10%;
+}
+.bln input{
+    border:0px;
+    border-bottom:0px solid black;
+    width:60%;
+    height: 80%;
+    margin-top:5%;
+    background-color:whitesmoke;
+    /* border-radius: 4%; */
+}
+.ft{
+    width:60%;
+    height:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.bln input:focus{
+    /* border:none; */
+    outline:none;
+    border-bottom:1px solid black;
+    background-color: white;
+}
+/* .bln{
+
+
+} */
+
+.bln input::placeholder{
+    padding-left:1%;
+    color:rgba(0,0,0,1);
+}
+a{
+    text-decoration: none;
+    color:rgba(0,0,0,0.75);
+    text-decoration: underline;
+}
+*{
+    transition: all ease-in-out;
+}
+
+/* .btn{
+
+} */
+button{
+    width:20%;
+    height:100%;
+    cursor: pointer;
+    background-color: rgb(217, 248, 248);
+    border:none;
+    font-size:20px;
+    padding:2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color:rgb(147, 245, 245);
+    border:1px solid rgb(18, 166, 166)
+}
+a:hover{
+    color:rgb(0, 0, 195);
+}
+@media screen and (max-width:1000px) and (max-height:1000px) {
+    body{
+        background-color:wheat;
+    }
+    .main{
+        background-color: yellow;
+        width:100%;
+        height:100%;
+    }
+    .fill{
+        width:100%;
+        background-color:red;
+        height:100%;
+    }
+    .dec{
+        width:0%;
+    }
+    .bln input{
+        width:80%;
+    }
+    .ft{
+        width:80%;
+        height:10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
